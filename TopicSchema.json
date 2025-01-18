@@ -1,0 +1,22 @@
+{
+    "type": "record",
+    "name": "ParkingSensorData",
+    "namespace": "com.example.sensors",
+    "fields": [
+      {
+        "name": "sensor_id",
+        "type": "string",
+        "doc": "The unique ID of the parking sensor"
+      },
+      {
+        "name": "timestamp",
+        "type": "string",
+        "doc": "The ISO 8601 timestamp when the data was collected, e.g., 2023-01-18T14:25:43.123Z"
+      },
+      {
+        "name": "state",
+        "type": "int",
+        "doc": "The state of the parking sensor: 1 for occupied, 0 for vacant"
+      }
+    ]
+  }
